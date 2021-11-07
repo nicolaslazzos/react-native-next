@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "MaterialCommunityIcons";
+  src: url("../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf");
+}
+
+@font-face {
+  font-family: "MaterialIcons";
+  src: url("../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf");
+}
+
+#__next,
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex; /* for react-navigation */
+}
+
+#root {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+button,
+input {
+  outline: none !important;
+}
